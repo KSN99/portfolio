@@ -1,14 +1,23 @@
-<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
-<%@ page session="false" %>
+<%@ page language="java" contentType="text/html; charset=UTF-8"%>
+<%@ page session="false"%>
+
+<!DOCTYPE html>
 <html>
 <head>
-	<title>Home</title>
+	<meta charset="UTF-8">
+	<title>CompactGym</title>
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css"/>
 </head>
 <body>
-<h1>
-	Hello world!  
-</h1>
+<div id="menu">
+	<ul>
 
-<P>  The time on the server is ${serverTime}. </P>
+	</ul>
+</div>
+<div style="text-align:center">
+	<h1>This is HOME</h1>
+
+</div>
 </body>
 </html>
